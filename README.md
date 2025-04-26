@@ -1,11 +1,13 @@
 # Localization System for Unity
 
 ## DISCLAIMER:
+```
 =================
 This system is a flexible and efficient localization framework for Unity, designed to help developers easily integrate and manage multiple languages in their games or applications. This framework allows you to switch between languages dynamically, ensuring a seamless experience for users across the globe. 🌍✨
 
 This system includes basic demo features such as language switching through a UI dropdown, automatic text translation via `TextMeshPro` and legacy `UI Text`, and custom editor tools to streamline the translation process. While this system can be used for production environments, it’s important to note that you might need to extend it to suit specific project requirements. 🚀
-
+=================
+```
 ---
 
 ## Features ✨
@@ -65,8 +67,9 @@ Follow these steps to integrate the Localization System into your Unity project:
    - Ensure that the **translation ID** is consistent across all languages. For example, if "Hello" is assigned ID 1 in English, "Bonjour" in French must also have ID 1.
 
 ### Step 3: Add Languages to LocalizationManager 📑
-1. **Localization Manager Setup**: 
-   - In the `LocalizationManager`, find the `AvailableLanguages` list.
+1. **Localization Manager Setup**:
+   - Drag the `LocalizationManager` prefab into your Hierachy.
+   - In the `LocalizationManager`, find the `Available Languages` list.
    - Add all the languages you created in the previous step to this list, referencing their respective language data files.
 
 ### Step 4: Assign Translatable Texts to UI Elements 🖋️
@@ -87,7 +90,7 @@ If you want users to select their preferred language:
    - Drag the `Select Language DropDown` prefab into your UI.
    
 2. **Automatic Language Population**:
-   - The dropdown will automatically populate with available languages based on the languages listed in the `LocalizationManager.Instance._availableLanguages`.
+   - The dropdown will automatically populate with available languages based on the languages listed in the `LocalizationManager -> Available Languages`.
 
 ### Step 6: Play and Enjoy! 🎉
 - Now, when you run the game, the language dropdown will allow you to switch between languages, and the text in your UI elements will automatically update based on the selected language.
