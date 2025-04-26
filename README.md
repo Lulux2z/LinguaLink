@@ -107,11 +107,11 @@ If you want users to select their preferred language:
 
 Here’s a quick overview of some built-in tools and actions:
 
-| **Action**             | **Description**                                   |
-|------------------------|---------------------------------------------------|
-| **SetLanguage**         | Switches the language dynamically.                |
-| **RefreshAllTexts**     | Refreshes all UI texts to reflect the new language.|
-| **GetTranslation**      | Retrieves the translation for a given ID.        |
+| **Action**             | **Description**                                                                 |
+|------------------------|---------------------------------------------------------------------------------|
+| **SetLanguage**         | Switches the language dynamically by using the `languageCode` referenced in the languages created via the **Tool** menu. |
+| **RefreshAllTexts**     | Refreshes all UI texts to reflect the new language.                            |
+| **GetTranslation**      | Retrieves the translation for a given ID based on the `currentLanguage` selected. The translation ID corresponds to the text to be translated. 
 
 ---
 
