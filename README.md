@@ -4,9 +4,12 @@
 ```
 =================
 This system is a flexible and efficient localization framework for Unity, designed to help developers easily
-integrate and manage multiple languages in their games or applications. This framework allows you to switch between languages dynamically, ensuring a seamless experience for users across the globe. 🌍✨
-
-This system includes basic demo features such as language switching through a UI dropdown, automatic text translation via `TextMeshPro` and legacy `UI Text`, and custom editor tools to streamline the translation process. While this system can be used for production environments, it’s important to note that you might need to extend it to suit specific project requirements. 🚀
+integrate and manage multiple languages in their games or applications. This framework allows you to switch
+between languages dynamically, ensuring a seamless experience for users across the globe. 🌍✨
+This system includes basic demo features such as language switching through a UI dropdown, automatic text
+translation via `TextMeshPro` and legacy `UI Text`, and custom editor tools to streamline the translation
+process. While this system can be used for production environments, it’s important to note that you
+might need to extend it to suit specific project requirements. 🚀
 =================
 ```
 ---
