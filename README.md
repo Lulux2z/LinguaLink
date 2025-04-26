@@ -14,6 +14,9 @@ might need to extend it to suit specific project requirements. 🚀
 
 =================
 ```
+
+## ⚠️ Requires TextMeshPro asset ⚠️
+
 ---
 
 ## Features ✨
